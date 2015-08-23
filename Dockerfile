@@ -14,7 +14,7 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt
   wget http://download01.thoughtworks.com/go/13.4.1/ga/go-server-13.4.1-18342.deb && \
   wget http://download01.thoughtworks.com/go/13.4.1/ga/go-agent-13.4.1-18342.deb && \
   dpkg -i go-server-*.deb && \
-  dpkg -i go-agent-*.deb && \
+  dpkg -i go-agent-*.deb
 
 EXPOSE 8153
 
